@@ -161,7 +161,7 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="bg-[url('./images/last-bg.avif')] bg-cover bg-center w-[99%] min-h-screen mt-10">
+      <div className="bg-[url('./images/last-bg.avif')] bg-cover bg-center w-screen min-h-screen mt-10">
         <div className="bg-[#4e4d4d] h-[20%] w-[100%] p-4 flex flex-col  md:flex-row items-center">
           <div className="w-full md:w-[30%] mt-[-5%]">
             <img src="./images/open-report.png" alt="Report" />
