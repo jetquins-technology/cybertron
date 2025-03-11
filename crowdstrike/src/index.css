@@ -1,0 +1,27 @@
+@import "tailwindcss";
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap'); */
+
+
+@font-face {
+    font-family: 'HaasGrotDisp-65Medium';
+    src: url('/fonts/HaasGrotDisp-65Medium.woff2') format('woff2'),
+         url('/fonts/HaasGrotDisp-65Medium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'HaasGrotDisp-65Medium', Helvetica, Arial, sans-serif;
+}
+
+.titel:hover > h2{
+    color: red;
+}
+
+.banners:hover h1{
+    color: white;
+
+}
+.banners:hover h2>span {
+    transform: scale(2)
+}
